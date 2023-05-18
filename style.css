@@ -1,0 +1,344 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+
+}
+
+
+nav{
+	
+	border: black;
+	border-radius: 5px;
+	height: 80px;
+	width: 100%;
+}
+
+
+label.logo{
+	color: white;
+	background-color: ;
+	font-size: 35px;
+	line-height: 80px;
+	font-weight: bold;
+	padding: 0 50px;
+	font-family: cursive;
+
+
+}
+
+
+nav ul {
+	float: right;
+	padding: 0 40px;
+}
+
+
+nav ul {
+	display: inline-block;
+	line-height: 80px;
+	margin:0 0px;
+}
+
+
+nav ul a{
+	background-color: Blue;
+	color: white;
+	font-size: 17px;
+	padding: 10px 16px;
+	border-radius: 5px;
+	text-transform: uppercase;
+
+}
+
+.dropbtn {
+ 
+  color: white;
+  background-color: blue;
+  padding: 10px 16px;
+ border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+  background-color: black;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  padding: 10px 16px;
+  float: right;
+ 
+}
+
+.dropdown-content a{
+
+   background-color: Blue;
+	color: white;
+	font-size: 12px;
+	padding: 3px 12px;
+	border-radius: 0px;
+    display: block;
+
+}
+
+
+.show {display: block;}
+
+header{
+	
+	position: fixed;
+	border-radius: 5px;
+	height: 80px;
+	width: 100%;
+}
+
+a.active,a:hover{
+	background: black;
+	transition: .2s;
+}
+
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+body{
+
+	
+	align-items: center;
+	height: 100vh;
+	width: 100%;
+	font-family: sans-serif;
+	background-image: url("MdzYWG.jpg");
+	background-repeat: no-repeat;
+	background-size: auto;
+	background-position: top;
+	background-attachment: fixed;
+}
+
+
+.wrapper{
+	margin: 120px auto;
+	width: 60%;
+}
+
+
+.wrapper img{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	float: left;
+}
+
+
+.detel h1{
+	text-emphasis-position: 1200px;
+	font-size: 42px;
+	font-family: cursive;
+	text-align: center;
+}
+
+
+.detel{
+	font-size: 50px;
+	color: white;
+
+}
+
+span{
+
+	color: blue;
+	border-color: white;
+}
+
+
+p{
+	font-size: 20px;
+	color: white;
+	line-height: 17px;
+	text-align: right;
+}
+
+
+.about h1{
+	text-emphasis-position: 1200px;
+	font-size: 42px;
+	font-family: cursive;
+	text-align: center;
+	color: white;
+	padding: 10px;
+	text-emphasis-position: 100px;
+}	
+
+
+.thugl p{
+	text-emphasis-position: 50px;
+	font-family: cursive;
+	text-align: left;
+	padding: 20px;
+}
+
+
+.thugl{
+	font-size: 40px;
+	color: white;
+	margin: 50px auto;
+	width: 50%;
+
+}
+
+
+.thugl img{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	float: left;
+	padding: 20px;
+}
+
+
+.portfolio h1{
+	text-emphasis-position: 1200px;
+	font-size: 42px;
+	font-family: cursive;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+
+.port p{
+	text-emphasis-position: 50px;
+	font-family: cursive;
+	text-align: center;
+}
+
+
+.port{
+	font-size: 60px;
+	color: white;
+	margin: 70px auto;
+	width: 65%;
+}
+
+
+.port img{
+	height: 400px;
+	width: 700px;
+	float: left;
+	padding: 10px;
+
+}
+
+
+.contacts{
+	align-items: center;
+	margin: 300px auto;
+	width: 50%;
+	font-size: 50px;
+	color: white;
+}
+
+
+.contacts h1{
+	
+	font-size: 42px;
+	font-family: cursive;
+	text-align: center;
+
+}
+	
+
+.button button{
+	
+	margin-left: 320px	;
+	background-color: blue;
+	border-radius: 25px;
+	border: black;
+	transform: translate(-50% -50%);
+	padding: 10px 30px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+
+
+.button1 button{	
+	margin-left: 333px	;
+	background-color: black;
+	border-radius: 25px;
+	transform: translate(-50% -50%);
+	padding: 10px 30px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border: black;
+}
+
+
+.button2 button{
+	
+	margin-left: 320px	;
+	background-image: linear-gradient(to bottom left , blue ,blueviolet , red);
+	border-radius: 25px;
+	padding: 10px 30px;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	border: black;
+}
+
+
+.blog h1{
+	text-emphasis-position: 1200px;
+	font-size: 42px;
+	font-family: cursive;
+	text-align: center;
+	color: white;
+	padding: 10px;
+}
+
+
+.blog img{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	float: left;
+}
+
+
+.blogg p{
+	text-emphasis-position: 50px;
+	font-family: cursive;
+	text-align: left;
+}
+
+
+.blogg{
+	font-size: 40px;
+	color: white;
+	margin: 50px auto;
+	width: 80%;
+
+}
+
+
+.blogg img{
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	float: left;
+	padding: 30px;
+
+}
